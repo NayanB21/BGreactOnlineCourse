@@ -241,14 +241,10 @@ function App() {
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+       
         <div className="container">
           <div className="row">
-            <div className="col-sm-6" style={{ paddingLeft: 150 }}>
+            <div className="col-sm-6" style={{ paddingLeft: 170 }}>
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
