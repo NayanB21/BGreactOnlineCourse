@@ -1,12 +1,11 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import pic1 from "/src/pic1.png";
-import pic2 from "/src/pic2.png";
-import pic3 from "/src/pic3.png";
-import pic4 from "/src/pic4.png";
-import pic5 from "/src/pic5.png";
-import pic6 from "/src/pic6.png";
-import pic7 from "/src/pic7.png";
+
+import p1 from "/src/pic1.png";
+import p2 from "/src/pic2.png";
+import p3 from "/src/pic3.png";
+import p4 from "/src/pic4.png";
+import p5 from "/src/pic5.png";
+import p7 from "/src/pic7.png";
 
 
 
@@ -49,7 +48,7 @@ function App() {
                 {/* Logo Section */}
 
                 <div className="logo" style={{ margin: "3%" }}>
-                  <img src="/src/pic7.png" alt="Logo" height={70} />
+                  <img src={p7} alt="Logo" height={70} />
                   <br />
                 </div>
               </div>
@@ -130,11 +129,11 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
-              <img src="/src/pic1.png" width="100%" alt="hari bol" />
+              <img src={p1} width="100%" alt="hari bol" />
             </div>
             <div className="col-sm-6">
               <div className="col-sm-2" style={{ fontSize: 20 }}>
-                <img src="/src/pic2.png" width="100%" />
+                <img src={p2} width="100%" />
               </div>
               <div className="col-sm-10" style={{ fontSize: 20 }}>
                 <h1>Experienced Teachers</h1>
@@ -146,7 +145,7 @@ function App() {
                 </p>
               </div>
               <div className="col-sm-2">
-                <img src="/src/pic3.png" width="100%" />
+                <img src={p3} width="100%" />
               </div>
               <div className="col-sm-10" style={{ fontSize: 20 }}>
                 <h1>Totally Free Online Gita Course</h1>
@@ -157,7 +156,7 @@ function App() {
                 </p>
               </div>
               <div className="col-sm-2">
-                <img src="/src/pic4.png" width="100%" />
+                <img src={p4} width="100%" />
               </div>
               <div className="col-sm-10" style={{ fontSize: 20 }}>
                 <h1> STeam of IITians</h1>
@@ -168,7 +167,7 @@ function App() {
                 </p>
               </div>
               <div className="col-sm-2">
-                <img src="/src/pic5.png" width="100%" />
+                <img src={p5} width="100%" />
               </div>
               <div className="col-sm-10" style={{ fontSize: 20 }}>
                 <h1>Personal Counselling</h1>
