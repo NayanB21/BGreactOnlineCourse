@@ -102,11 +102,12 @@ function App() {
           >
             COURSE ON INDIAN SPIRITUAL AND CULTURAL HERITAGE
           </h1>
+              <br />    <br />
           <h1
             style={{
               color: "rgb(28, 30, 30)",
               textAlign: "center",
-              fontSize: 100,
+              fontSize: 70,
               fontFamily: "georgia, Times, serif",
             }}
           >
